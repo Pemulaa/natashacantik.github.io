@@ -63,6 +63,10 @@ button:nth-child(2) {
 
 /* Media query untuk tablet dan laptop */
 @media screen and (min-width: 768px) {
+  img {
+    width: 50%;
+    margin: 20px;
+  }
   h2 {
     font-size: 3em;
   }
@@ -70,26 +74,29 @@ button:nth-child(2) {
     margin-top: 50px;
   }
   button {
-    width: 180px;
-    font-size: 1.2em;
+    width: 150px;
+    font-size: 1em;
   }
 }
 
 /* Media query untuk ponsel */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
   img {
-    width: 500px;
-    height: 500px;
+    width: 80%;
+    height: auto;
+    padding: 20px;
+    margin: auto;
   }
   h2 {
-    font-size: 2.5em;
+    font-size: 2em;
   }
   .btn-group {
     margin-top: 30px;
   }
   button {
-    width: 180px;
-    height: 80px;
+    width: 150px;
+    height: 40px;
     font-size: 2em;
+    margin-top: 20px;
   }
 }
