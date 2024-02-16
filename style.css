@@ -82,7 +82,7 @@ button:nth-child(2) {
 /* Media query untuk ponsel */
 @media screen and (max-width: 480px) {
   img {
-    width: 80%;
+    width: 100px;
     height: auto;
     padding: 20px;
     margin: auto;
@@ -96,7 +96,7 @@ button:nth-child(2) {
   button {
     width: 150px;
     height: 40px;
-    font-size: 2em;
+    font-size: 1.5em;
     margin-top: 20px;
   }
 }
